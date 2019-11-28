@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Clustering using Agglomerative algorithm
+categories: [python, data-mining, clustering]
+tags: [pyclustering]
 ---
 
 Hi! In this post, I would like to share information about one of the most popular clustering algorithms – Agglomerative. What is it? The idea of this algorithm is quite simple. At the beginning, each point of an input data is considered as a separate cluster. For example, we have an input data with 100 points, in this case we have 100 clusters. What is next? Then two the closest clusters are merged and the algorithm checks whether it is a time to stop by checking current amount of clusters. Clustering quality depends on a link that is used to find two the closest clusters. For example, the single-link clustering method is suitable for elongated clusters and common centroids might be used for well-scattered clusters with a Normal distribution.
